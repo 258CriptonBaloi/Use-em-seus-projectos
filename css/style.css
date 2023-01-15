@@ -1,20 +1,45 @@
+/*Neste campo definimos os estilos gerais da pagina*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*Neste campo definimosd a cor o background da pagina*/
 body{
     background-color: rgb(231, 213, 188);
 }
 
+/*Neste campo definimos os estilos dos titulo (h1) da pagina*/
 h1{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     font-weight: 400;
-    margin-top: 10px;
+    margin: 20px 0;
 }
 
+/*Neste campo definimos os estilos dos titulo (h2) da pagina*/
+h2{
+    color: #1b1a1a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Neste campo definimos o posicionamento da margem dos artigos da pagina*/
+article{
+    margin: 20px 25px;
+}
+
+/*Neste campo definimos os estilos dos paragrafos contidos no artigo da pagina*/
+article p{
+    text-align: justify;
+}
+
+/*Neste campo definimos os estilos dos titulos contidos no artigo da pagina*/
+article h2{
+    margin-bottom: 10px;
+}
+
+/*Neste campo definimos os estilos dos menu da pagina*/
 nav{
     text-align: center;
     margin-top: 12px;
@@ -27,8 +52,33 @@ li{
     margin: 5px;   
 }
 
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+/*Neste campo definimos os estilos da imagem da pagina*/
 img{
-    align-items: center;
-    width: 400px;
-    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Neste campo definimos os estilos da tabela da pagina*/
+table, th, td{
+    border: 2px #1b1a1a solid;
+}
+
+/*Neste campo definimos os estilos dos rodape da pagina*/
+.footer{
+    background-color: #1b1a1a;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.footer_p{
+    margin: 5px 0;
+    color: white;
 }
