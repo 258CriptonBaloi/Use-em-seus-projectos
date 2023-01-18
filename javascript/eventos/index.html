@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .texto{
+            background-color: bisque;
+            width: 160px;
+            height: 60px;
+            margin: 40px;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+        <h2>Evento-onclick</h2>
+        <button onclick="carConteudo()">Clica aqui!</button><br><br> <!--BUTÃO COM EVENTO ONCLICK QUE CHAMA UMA FUNÇÃO JAVASCRIPT-->
+
+
+
+        <h2>Eventos-onMouseOver & onMouseOut</h2>
+        <p onmouseover="mouseOver()" onmouseout="mouseOut()" class="texto" id="mouseAlt">Passe o mouse</p>
+
+
+        <h2>Eventos-onChange & onKeyUp</h2>
+        <form>
+           Nome:<input type="text" name="nome" id="nome" onchange="converTexto()"> <br><br>
+           <div class="erroSenha"></div>
+           Senha: <input type="password" name="senha" id="senha" onkeyup="validarSenha()">
+        </form>
+    
+        <script src="script.js"></script>
+</body>
+</html>
